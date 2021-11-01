@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap4_6.css" />
+        <link rel="stylesheet" href="css/fontawesome.css" />
+        <link rel="stylesheet" href="css/flickity.css" />
+        <script src="js/fontawesome.js"></script>
+        <script src="js/jQuery.js"></script>
+        <script src="js/app.js"></script>
+        <!-- CSS -->
+        <title>EDIT PROFILE</title>
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+    </head>
+
+    <body>
+        <!---------------------desktop navigation start-->
+        <section class="container-fluid desktop_header">
+            <section class="row lower_header">
+                <section class="col-12 d-flex main_header_positioning">
+                    <div class="logo">
+                        <h5>Pay All Day</h5>
+                    </div>
+                    <nav>
+                        <ul class="list-unstyled d-flex align-items-center">
+                            <li><a href="#">Online Shopping</a></li>
+                            <li><a href="#">Local Shopping</a></li>
+                            <li><a href="#">Coupons</a></li>
+                            <li class="hidden_link"><a href="#">eVoucher</a></li>
+                            <li class="hidden_link"><a href="#">Redeem Points</a></li>
+                            <li class="hidden_link"><a href="#">myWorld App</a></li>
+                            <li><a href="#">More</a></li>
+                            <li><a href="#">All Categories</a></li>
+                        </ul>
+                    </nav>
+                    <div class="search">
+                        <form action="" method="post">
+                            <input type="search" name="" placeholder="Search for partner and products" id="" />
+                            <i class="fas fa-search"></i>
+                        </form>
+                    </div>
+                    <div class="user"><i class="far fa-user-circle"></i>&nbsp;Register now for free</div>
+                </section>
+            </section>
+        </section>
+        <section class="container-fluid desktop_header">
+            <section class="row upper_navigation">
+                <section class="col-12">
+                    <ul class="list-unstyled d-flex align-items-center">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li><a href="#">Local Partner</a></li>
+                        <li><a href="#">Online Partner</a></li>
+                        <li><a href="#">Super Cashback</a></li>
+                        <li><a href="#">Today Deals</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Free Gifts</a></li>
+                        <li><a href="#">E-vouchers</a></li>
+                        <li><a href="#">Coupons</a></li>
+                        <li><a href="#">Redeem Points</a></li>
+                        <li><a href="#">Top-Up</a></li>
+                        <li><a href="#">Global Matrix</a></li>
+                        <li><a href="#">Utilities & More</a></li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+        <!---------------------desktop navigation end-->
+
+        <!------------------mobile navigation start-->
+        <section class="mobile_navigation">
+            <section class="main_on_navigation"></section>
+            <div class="btn_main">
+                <span class="fas fa-bars"></span>
+            </div>
+            <nav class="sidebar">
+                <div class="text">Menu</div>
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Local Partner</a></li>
+                    <li><a href="#">Online Partner</a></li>
+                    <li><a href="#">Super Cashback</a></li>
+                    <li><a href="#">Today Deals</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Free Gifts</a></li>
+                    <li><a href="#">E-vouchers</a></li>
+                    <li><a href="#">Coupons</a></li>
+                    <li><a href="#">Redeem Points</a></li>
+                    <li><a href="#">Top-Up</a></li>
+                    <li><a href="#">Global Matrix</a></li>
+                    <li><a href="#">Utilities & More</a></li>
+                    <li class="active"><a href="#">MY ACCOUNT</a></li>
+                    <li>
+                        <a href="#" class="feat-btn_main">
+                            All Categories
+                            <span class="fas fa-caret-down first"></span>
+                        </a>
+                        <ul class="feat-show">
+                            <li><a href="#">Books, Games, Toys, Films & Music</a></li>
+                            <li><a href="#">Cars & Motorbikes</a></li>
+                            <li><a href="#">Clothing, Shoes & Accessories</a></li>
+                            <li><a href="#">DIY & Garden</a></li>
+                            <li><a href="#">Entertainment Electronics & Software</a></li>
+                            <li><a href="#">Financial, Loan and Insurance Companies</a></li>
+                            <li><a href="#">Food & Beverages</a></li>
+                            <li><a href="#">Health & Beauty</a></li>
+                            <li><a href="#">House & Home</a></li>
+                            <li><a href="#">Leisure, Events & Tickets</a></li>
+                            <li><a href="#">Office & School</a></li>
+                            <li><a href="#">Pet Food & Supplies</a></li>
+                            <li><a href="#">Power, Heating & Refuelling</a></li>
+                            <li><a href="#">Restaurants & Bars</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Sport & Fitness</a></li>
+                            <li><a href="#">Telephone, Mobile Phone & Internet</a></li>
+                            <li><a href="#">Tradesmen</a></li>
+                            <li><a href="#">Travel</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <!------------------mobile navigation end-->
+
+        <!-------------my profile start-->
+        <section class="container">
+            <section class="row">
+                <section class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12 pt-3 font-weight-bold">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Profile Information</a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Manage Addresses</a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">PAN Card Information</a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">MY ORDERS</a>
+                        <a class="nav-link" id="v-pills-savedupi-tab" data-toggle="pill" href="#v-pills-savedupi" role="tab" aria-controls="v-pills-savedupi" aria-selected="false">Saved UPI</a>
+                        <a class="nav-link" id="v-pills-savedcard-tab" data-toggle="pill" href="#v-pills-savedcard" role="tab" aria-controls="v-pills-savedcard" aria-selected="false">Saved Card</a>
+                        <a class="nav-link" id="v-pills-mycoupons-tab" data-toggle="pill" href="#v-pills-mycoupons" role="tab" aria-controls="v-pills-mycoupons" aria-selected="false">My Coupons</a>
+                        <a class="nav-link" id="v-pills-myrating-tab" data-toggle="pill" href="#v-pills-myrating" role="tab" aria-controls="v-pills-myrating" aria-selected="false">My Review And Ratings</a>
+                    </div>
+                </section>
+                <section class="col-xl-9 col-lg-9 col-md-8 col-sm-12 col-12 pt-3">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <section class="container-fluid profile_information">
+                                <h4 class="mb-4"><b>Profile</b></h4>
+                                <p><b>Personal Information</b>&nbsp;&nbsp;&nbsp;<a href="#">Edit</a></p>
+                                <form action="" method="post">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" name="fname" placeholder="First Name" id="" />
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" name="lname" placeholder="Last Name" id="" />
+                                        </div>
+                                    </div>
+                                    <p>Your Gender</p>
+                                    <input type="radio" name="gender" id="" /> Male &nbsp; <input type="radio" name="gender" id="" /> Female
+                                    <p class="mt-4">
+                                        <b>Email Address</b>&nbsp;&nbsp;&nbsp; <a href="#">Edit</a>&nbsp;&nbsp;&nbsp;
+                                        <a href="#">Change Password</a>
+                                    </p>
+                                    <p>
+                                        <input type="email" name="email" placeholder="Enter Your Email" id="" />
+                                    </p>
+                                    <p><b>Mobile Number</b>&nbsp;&nbsp;&nbsp; <a href="#">Edit</a></p>
+                                    <p>
+                                        <input type="tel" name="number" placeholder="Enter Your Mobile Number" id="" />
+                                    </p>
+                                </form>
+                                <h4 class="my-4"><b>FAQs</b></h4>
+                                <b>What happens when I update my email address (or mobile number)?</b>
+                                <p>
+                                    Your login email id (or mobile number) changes, likewise. You'll receive all your account related communication on your updated email address (or mobile number).
+                                </p>
+                                <b>When will my PAY ALL DAY account be updated with the new email address (or mobile number)?</b>
+                                <p>
+                                    It happens as soon as you confirm the verification code sent to your email (or mobile) and save the changes.
+                                </p>
+                                <b>What happens to my existing PAY ALL DAY account when I update my email address (or mobile number)?</b>
+                                <p>
+                                    Updating your email address (or mobile number) doesn't invalidate your account. Your account remains fully functional. You'll continue seeing your Order history, saved information and personal details.
+                                </p>
+                                <b>Does my Seller account get affected when I update my email address?</b>
+                                <p>
+                                    PAY ALL DAY has a 'single sign-on' policy. Any changes will reflect in your Seller account also.
+                                </p>
+                                <a href="#"><b>Deactivate Account</b></a>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <section class="container-fluid">
+                                <h4 class="mb-4"><b>Manage Addresses</b></h4>
+                                <section class="card pl-2 py-2 my-3">
+                                    <h5>Manage Addresses</h5>
+                                </section>
+                                <div class="card my-3 p-1">
+                                    <span>Home</span>
+                                    <p><b>Deepak</b> &nbsp;&nbsp; <b>Rana7291069076</b></p>
+                                    <p>
+                                        Sarkari school, Salah nagar Loni ghaziabad, near sarkari school, Loni, Uttar Pradesh - 201102
+                                    </p>
+                                </div>
+                                <div class="card my-3 p-1">
+                                    <span>Home</span>
+                                    <p><b>Deepak</b> &nbsp;&nbsp; <b>Rana7291069076</b></p>
+                                    <p>
+                                        Sarkari school, Salah nagar Loni ghaziabad, near sarkari school, Loni, Uttar Pradesh - 201102
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <section class="container-fluid">
+                                <h4 class="mb-4"><b>PAN Card Information</b></h4>
+                                <form action="" method="post">
+                                    <p>
+                                        <input type="text" name="pannumber" placeholder="PAN Card Number" id="" />
+                                    </p>
+                                    <p>
+                                        <input type="text" name="fullname" placeholder="Full Name" id="" />
+                                    </p>
+                                    <p><input type="file" name="" id="" /></p>
+                                    <p>
+                                        <input type="checkbox" name="agree" id="" />&nbsp; I do hereby declare that PAN furnished/stated above is correct and belongs to me, registered as an account holder with www.payallday.com. I further
+                                        declare that I shall solely be held responsible for the consequences, in case of any false PAN declaration.
+                                    </p>
+                                    <p>
+                                        <input type="submit" class="btn btn-primary" value="UPLOAD" />
+                                    </p>
+                                    <a href="#"><b>Read Terms & Conditions of PAN Card Information</b></a>
+                                </form>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            <h4 class="mb-4"><b>My Orders</b></h4>
+                            <section class="row border pt-3 pb-1 my-4">
+                                <section class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div class="media">
+                                        <img src="icon/mobi.jpeg" width="40px" class="align-self-start mr-3" alt="..." />
+                                        <div class="media-body">
+                                            <h5 class="mt-0">realme X2 (Pearl White, 64 GB)</h5>
+                                            <p>
+                                                Color: Pearl White <br />
+                                                Seller:Vision Star
+                                            </p>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="col-xl-1 col-lg-1 col-md-2 col-sm-3 col-3 my-auto">
+                                    <h5>₹349</h5>
+                                </section>
+                                <section class="col-xl-4 col-lg-4 col-md-10 col-sm-9 col-9 my-auto">
+                                    <p>
+                                        Cancelled on Mar 11, 2020 <br />
+                                        Your item has been delivered
+                                    </p>
+                                </section>
+                            </section>
+                            <section class="row border pt-3 pb-1 my-4">
+                                <section class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div class="media">
+                                        <img src="icon/mobi.jpeg" width="40px" class="align-self-start mr-3" alt="..." />
+                                        <div class="media-body">
+                                            <h5 class="mt-0">realme X2 (Pearl White, 64 GB)</h5>
+                                            <p>
+                                                Color: Pearl White <br />
+                                                Seller:Vision Star
+                                            </p>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="col-xl-1 col-lg-1 col-md-2 col-sm-3 col-3 my-auto">
+                                    <h5>₹349</h5>
+                                </section>
+                                <section class="col-xl-4 col-lg-4 col-md-10 col-sm-9 col-9 my-auto">
+                                    <p>
+                                        Cancelled on Mar 11, 2020 <br />
+                                        Your item has been delivered
+                                    </p>
+                                </section>
+                            </section>
+                            <section class="row border pt-3 pb-1 my-4">
+                                <section class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div class="media">
+                                        <img src="icon/mobi.jpeg" width="40px" class="align-self-start mr-3" alt="..." />
+                                        <div class="media-body">
+                                            <h5 class="mt-0">realme X2 (Pearl White, 64 GB)</h5>
+                                            <p>
+                                                Color: Pearl White <br />
+                                                Seller:Vision Star
+                                            </p>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="col-xl-1 col-lg-1 col-md-2 col-sm-3 col-3 my-auto">
+                                    <h5>₹349</h5>
+                                </section>
+                                <section class="col-xl-4 col-lg-4 col-md-10 col-sm-9 col-9 my-auto">
+                                    <p>
+                                        Cancelled on Mar 11, 2020 <br />
+                                        Your item has been delivered
+                                    </p>
+                                </section>
+                            </section>
+                            <section class="row border pt-3 pb-1 my-4">
+                                <section class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div class="media">
+                                        <img src="icon/mobi.jpeg" width="40px" class="align-self-start mr-3" alt="..." />
+                                        <div class="media-body">
+                                            <h5 class="mt-0">realme X2 (Pearl White, 64 GB)</h5>
+                                            <p>
+                                                Color: Pearl White <br />
+                                                Seller:Vision Star
+                                            </p>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="col-xl-1 col-lg-1 col-md-2 col-sm-3 col-3 my-auto">
+                                    <h5>₹349</h5>
+                                </section>
+                                <section class="col-xl-4 col-lg-4 col-md-10 col-sm-9 col-9 my-auto">
+                                    <p>
+                                        Cancelled on Mar 11, 2020 <br />
+                                        Your item has been delivered
+                                    </p>
+                                </section>
+                            </section>
+                            <section class="row border pt-3 pb-1 my-4">
+                                <section class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div class="media">
+                                        <img src="icon/mobi.jpeg" width="40px" class="align-self-start mr-3" alt="..." />
+                                        <div class="media-body">
+                                            <h5 class="mt-0">realme X2 (Pearl White, 64 GB)</h5>
+                                            <p>
+                                                Color: Pearl White <br />
+                                                Seller:Vision Star
+                                            </p>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="col-xl-1 col-lg-1 col-md-2 col-sm-3 col-3 my-auto">
+                                    <h5>₹349</h5>
+                                </section>
+                                <section class="col-xl-4 col-lg-4 col-md-10 col-sm-9 col-9 my-auto">
+                                    <p>
+                                        Cancelled on Mar 11, 2020 <br />
+                                        Your item has been delivered
+                                    </p>
+                                </section>
+                            </section>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Previous</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-savedupi" role="tabpanel" aria-labelledby="v-pills-savedupi-tab">
+                            <h4 class="mb-4"><b>No VPAs saved to be shown</b></h4>
+                            <h5 class="my-4"><b>FAQs</b></h5>
+                            <b>Why is my UPI being saved on PAY ALL DAY?</b>
+                            <p>
+                                It's quicker. You can save the hassle of typing in the complete UPI information every time you shop at PAY ALL DAY by saving your UPI details. You can make your payment by selecting the saved UPI ID of your
+                                choice at checkout. While this is obviously faster, it is also very secure.
+                            </p>
+                            <b>Is it safe to save my UPI on PAY ALL DAY?</b>
+                            <p>
+                                Absolutely. Your UPI ID information is 100 percent safe with us. UPI ID details are non PCI compliant and are non confidential data.
+                            </p>
+                            <b>What all UPI information does PAY ALL DAY store?</b>
+                            <p>
+                                PAY ALL DAY only stores UPI ID and payment provider details. We do not store UPI PIN/MPIN.
+                            </p>
+                            <b>Can I delete my saved UPI?</b>
+                            <p>Yes, you can delete your UPI ID at any given time.</p>
+                            <b>How many UPI IDs can I save on PAY ALL DAY?</b>
+                            <p>You can save upto 10 IDs as of now</p>
+                            <b>What all UPI IDs can be saved on PAY ALL DAY?</b>
+                            <p>
+                                UPI IDs can be saved from any payment provider such as Gpay, Phonepe, Bhim etc.
+                            </p>
+                            <b>How do I save my UPI ID(s) on PAY ALL DAY?</b>
+                            <p>
+                                Your UPI IDs are saved automatically when you make a successful payment, by entering the UPI ID details while purchasing on PAY ALL DAY. Alternatively, Your UPI IDs are also saved when you make doorstep
+                                payment through UPI for COD orders.
+                            </p>
+                            <b>How do I make a payment using a saved UPI ID?</b>
+                            <p>
+                                You can view your saved UPI IDs on the preferred section on the payment options page at checkout. Select a saved UPI ID that you wish to use to make the payment. You will receive a push notification and/or
+                                SMS for the collect request. Once you accept the collect request, enter the UPI PIN / MPIN. You will get confirmation of the payment being successful on the PAY ALL DAY app/website.
+                            </p>
+                            <b>How can I delete my UPI ID?</b>
+                            <p>
+                                You can delete your saved UPI ID(s) through the My Account section. Navigate to “My Account > Payments > Saved UPI” and you will be able to view your saved UPI ID(s). You can now delete a saved ID by clicking
+                                on “Delete Icon”.
+                            </p>
+                            <b>What are the prerequisites for using the saved UPI ID feature?</b>
+                            <p>
+                                You should have a registered account with PAY ALL DAY. You should be logged in to your PAY ALL DAY account. Due to security reasons, this feature is not available during guest checkout.
+                            </p>
+                            <b>I had opted to save my UPI at the time of payment but my UPI was not saved. Why?</b>
+                            <p>
+                                If you had opted to save your UPI at the time of making the payment then the only scenario where your UPI may not get saved on PAY ALL DAY is when the UPI payment fails for the reason that the UPI ID was
+                                invalid. If the payment was successful and the UPI ID was not saved then you may contact us at cs@payallday.com for resolution of your problem.
+                            </p>
+
+                            <a href="#">View all FAQs</a>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-savedcard" role="tabpanel" aria-labelledby="v-pills-savedcard-tab">
+                            <h4 class="mb-4"><b>Manage Saved Cards</b></h4>
+                            <div class="card py-2 pl-2 mt-4"><h4>ADD A NEW CARD</h4></div>
+                            <h5 class="mt-4">FAQs</h5>
+                            <b>Why is my Card being saved on PAY ALL DAY?</b>
+                            <p>
+                                It's quicker. You can save the hassle of typing in the complete card information every time you shop at PAY ALL DAY by saving your card details. You can make your payment by selecting the saved card of your
+                                choice at checkout. While this is obviously faster, it is also very secure.
+                            </p>
+                            <b>Is it safe to save my cards on PAY ALL DAY?</b>
+                            <p>
+                                Absolutely. Your card information is 100 percent safe with us. We use world class encryption technology while saving your card information on our highly secure systems. Our payment systems have passed
+                                stringent security compliance checks like PCI DSS (Payment Card Industry Data Security Standards) to ensure that your card information remains confidential at all times.
+                            </p>
+                            <b>What all card information does PAY ALL DAY store?</b>
+                            <p>
+                                PAY ALL DAY only stores card information when the customer selects the option. We only store your card number, cardholder name and card expiry date. We do not store your card’s CVV number or the 3D Secure
+                                password.
+                            </p>
+                            <b>Can I delete my saved cards?</b>
+                            <p>Yes, you can delete your saved cards at any given time.</p>
+                            <a href="#">View all FAQs</a>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-mycoupons" role="tabpanel" aria-labelledby="v-pills-mycoupons-tab">
+                            <h4 class="mb-4"><b>Available Coupons</b></h4>
+                            <div class="card py-3 my-3 pl-3">
+                                <section class="container-fliud">
+                                    <section class="row">
+                                        <section class="col-8">
+                                            <p><b>Babycare Savings Pass </b></p>
+                                            <p><b>Valid till 31 Oct, 2021 </b></p>
+                                        </section>
+                                        <section class="col-4">
+                                            <p>Buy worth ₹750 save ₹100</p>
+                                            <p>View T&C</p>
+                                        </section>
+                                    </section>
+                                </section>
+                            </div>
+                            <div class="card py-3 my-3 pl-3">
+                                <section class="container-fliud">
+                                    <section class="row">
+                                        <section class="col-8">
+                                            <p><b>Babycare Savings Pass </b></p>
+                                            <p><b>Valid till 31 Oct, 2021 </b></p>
+                                        </section>
+                                        <section class="col-4">
+                                            <p>Buy worth ₹750 save ₹100</p>
+                                            <p>View T&C</p>
+                                        </section>
+                                    </section>
+                                </section>
+                            </div>
+                            <div class="card py-3 my-3 pl-3">
+                                <section class="container-fliud">
+                                    <section class="row">
+                                        <section class="col-8">
+                                            <p><b>Babycare Savings Pass </b></p>
+                                            <p><b>Valid till 31 Oct, 2021 </b></p>
+                                        </section>
+                                        <section class="col-4">
+                                            <p>Buy worth ₹750 save ₹100</p>
+                                            <p>View T&C</p>
+                                        </section>
+                                    </section>
+                                </section>
+                            </div>
+                            <div class="card py-3 my-3 pl-3">
+                                <section class="container-fliud">
+                                    <section class="row">
+                                        <section class="col-8">
+                                            <p><b>Babycare Savings Pass </b></p>
+                                            <p><b>Valid till 31 Oct, 2021 </b></p>
+                                        </section>
+                                        <section class="col-4">
+                                            <p>Buy worth ₹750 save ₹100</p>
+                                            <p>View T&C</p>
+                                        </section>
+                                    </section>
+                                </section>
+                            </div>
+                            <div class="card py-3 my-3 pl-3">
+                                <section class="container-fliud">
+                                    <section class="row">
+                                        <section class="col-8">
+                                            <p><b>Babycare Savings Pass </b></p>
+                                            <p><b>Valid till 31 Oct, 2021 </b></p>
+                                        </section>
+                                        <section class="col-4">
+                                            <p>Buy worth ₹750 save ₹100</p>
+                                            <p>View T&C</p>
+                                        </section>
+                                    </section>
+                                </section>
+                            </div>
+                            <div class="card py-3 my-3 pl-3">
+                                <section class="container-fliud">
+                                    <section class="row">
+                                        <section class="col-8">
+                                            <p><b>Babycare Savings Pass </b></p>
+                                            <p><b>Valid till 31 Oct, 2021 </b></p>
+                                        </section>
+                                        <section class="col-4">
+                                            <p>Buy worth ₹750 save ₹100</p>
+                                            <p>View T&C</p>
+                                        </section>
+                                    </section>
+                                </section>
+                            </div>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Previous</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-myrating" role="tabpanel" aria-labelledby="v-pills-myrating-tab">
+                            <h4 class="mb-4"><b>My Review And Ratings</b></h4>
+                            <section class="row border pt-3 pb-1 my-4">
+                                <section class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div class="media">
+                                        <img src="icon/mobi.jpeg" width="40px" class="align-self-start mr-3" alt="..." />
+                                        <div class="media-body">
+                                            <h6 class="mt-0">realme X2 (Pearl White, 64 GB)</h6>
+                                            <p>
+                                                Color: Pearl White <br />
+                                                Seller:Vision Star
+                                            </p>
+                                            <p><a href="#">Edit</a>&nbsp;&nbsp;<a href="#">Delete</a>&nbsp;&nbsp;<a href="#">Share</a></p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 my-auto">
+                                    <h5>₹349</h5>
+                                </section>
+                                <section class="col-xl-4 col-lg-4 col-md-10 col-sm-12 col-12 my-auto">
+                                    <p>
+                                        Cancelled on Mar 11, 2020 <br />
+                                        Your item has been delivered
+                                    </p>
+                                    <p class="mt-5 text-xl-right text-sm-left pr-5"><i class="fas fa-thumbs-up"> 0</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-thumbs-down"> 1</i></p>
+                                </section>
+                            </section>
+                            <section class="row border pt-3 pb-1 my-4">
+                                <section class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div class="media">
+                                        <img src="icon/mobi.jpeg" width="40px" class="align-self-start mr-3" alt="..." />
+                                        <div class="media-body">
+                                            <h6 class="mt-0">realme X2 (Pearl White, 64 GB)</h6>
+                                            <p>
+                                                Color: Pearl White <br />
+                                                Seller:Vision Star
+                                            </p>
+                                            <p><a href="#">Edit</a>&nbsp;&nbsp;<a href="#">Delete</a>&nbsp;&nbsp;<a href="#">Share</a></p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 my-auto">
+                                    <h5>₹349</h5>
+                                </section>
+                                <section class="col-xl-4 col-lg-4 col-md-10 col-sm-12 col-12 my-auto">
+                                    <p>
+                                        Cancelled on Mar 11, 2020 <br />
+                                        Your item has been delivered
+                                    </p>
+                                    <p class="mt-5 text-xl-right text-sm-left pr-5"><i class="fas fa-thumbs-up"> 0</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-thumbs-down"> 1</i></p>
+                                </section>
+                            </section>
+                            <section class="row border pt-3 pb-1 my-4">
+                                <section class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div class="media">
+                                        <img src="icon/mobi.jpeg" width="40px" class="align-self-start mr-3" alt="..." />
+                                        <div class="media-body">
+                                            <h6 class="mt-0">realme X2 (Pearl White, 64 GB)</h6>
+                                            <p>
+                                                Color: Pearl White <br />
+                                                Seller:Vision Star
+                                            </p>
+                                            <p><a href="#">Edit</a>&nbsp;&nbsp;<a href="#">Delete</a>&nbsp;&nbsp;<a href="#">Share</a></p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 my-auto">
+                                    <h5>₹349</h5>
+                                </section>
+                                <section class="col-xl-4 col-lg-4 col-md-10 col-sm-12 col-12 my-auto">
+                                    <p>
+                                        Cancelled on Mar 11, 2020 <br />
+                                        Your item has been delivered
+                                    </p>
+                                    <p class="mt-5 text-xl-right text-sm-left pr-5"><i class="fas fa-thumbs-up"> 0</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-thumbs-down"> 1</i></p>
+                                </section>
+                            </section>
+                            <section class="row border pt-3 pb-1 my-4">
+                                <section class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div class="media">
+                                        <img src="icon/mobi.jpeg" width="40px" class="align-self-start mr-3" alt="..." />
+                                        <div class="media-body">
+                                            <h6 class="mt-0">realme X2 (Pearl White, 64 GB)</h6>
+                                            <p>
+                                                Color: Pearl White <br />
+                                                Seller:Vision Star
+                                            </p>
+                                            <p><a href="#">Edit</a>&nbsp;&nbsp;<a href="#">Delete</a>&nbsp;&nbsp;<a href="#">Share</a></p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 my-auto">
+                                    <h5>₹349</h5>
+                                </section>
+                                <section class="col-xl-4 col-lg-4 col-md-10 col-sm-12 col-12 my-auto">
+                                    <p>
+                                        Cancelled on Mar 11, 2020 <br />
+                                        Your item has been delivered
+                                    </p>
+                                    <p class="mt-5 text-xl-right text-sm-left pr-5"><i class="fas fa-thumbs-up"> 0</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-thumbs-down"> 1</i></p>
+                                </section>
+                            </section>
+                            <section class="row border pt-3 pb-1 my-4">
+                                <section class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div class="media">
+                                        <img src="icon/mobi.jpeg" width="40px" class="align-self-start mr-3" alt="..." />
+                                        <div class="media-body">
+                                            <h6 class="mt-0">realme X2 (Pearl White, 64 GB)</h6>
+                                            <p>
+                                                Color: Pearl White <br />
+                                                Seller:Vision Star
+                                            </p>
+                                            <p><a href="#">Edit</a>&nbsp;&nbsp;<a href="#">Delete</a>&nbsp;&nbsp;<a href="#">Share</a></p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 my-auto">
+                                    <h5>₹349</h5>
+                                </section>
+                                <section class="col-xl-4 col-lg-4 col-md-10 col-sm-12 col-12 my-auto">
+                                    <p>
+                                        Cancelled on Mar 11, 2020 <br />
+                                        Your item has been delivered
+                                    </p>
+                                    <p class="mt-5 text-xl-right text-sm-left pr-5"><i class="fas fa-thumbs-up"> 0</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-thumbs-down"> 1</i></p>
+                                </section>
+                            </section>
+                            <section class="row border pt-3 pb-1 my-4">
+                                <section class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                                    <div class="media">
+                                        <img src="icon/mobi.jpeg" width="40px" class="align-self-start mr-3" alt="..." />
+                                        <div class="media-body">
+                                            <h6 class="mt-0">realme X2 (Pearl White, 64 GB)</h6>
+                                            <p>
+                                                Color: Pearl White <br />
+                                                Seller:Vision Star
+                                            </p>
+                                            <p><a href="#">Edit</a>&nbsp;&nbsp;<a href="#">Delete</a>&nbsp;&nbsp;<a href="#">Share</a></p>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="col-xl-1 col-lg-1 col-md-2 col-sm-12 col-12 my-auto">
+                                    <h5>₹349</h5>
+                                </section>
+                                <section class="col-xl-4 col-lg-4 col-md-10 col-sm-12 col-12 my-auto">
+                                    <p>
+                                        Cancelled on Mar 11, 2020 <br />
+                                        Your item has been delivered
+                                    </p>
+                                    <p class="mt-5 text-xl-right text-sm-left pr-5"><i class="fas fa-thumbs-up"> 0</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-thumbs-down"> 1</i></p>
+                                </section>
+                            </section>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Previous</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <!-------------my profile end-->
+
+        <!-------------------------add banner start-->
+        <section class="container my-5">
+            <section class="row add_banner">
+                <section class="col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12 mx-auto">
+                    <section class="carousel carousel_container_padding" data-flickity='{"wrapAround":true,"autoPlay":true, "pageDots":false, "prevNextButtons" : false}'>
+                        <section class="carousel-cell">
+                            <img src="images/addbanner.jpg" width="100%" height="100%" alt="" />
+                        </section>
+                        <section class="carousel-cell">
+                            <img src="images/addbanner.jpg" width="100%" height="100%" alt="" />
+                        </section>
+                        <section class="carousel-cell">
+                            <img src="images/addbanner.jpg" width="100%" height="100%" alt="" />
+                        </section>
+                        <section class="carousel-cell">
+                            <img src="images/addbanner.jpg" width="100%" height="100%" alt="" />
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <!-------------------------add banner end-->
+
+        <!---------------------footer start-->
+        <section class="container-fluid mt-5 main_footer">
+            <section class="row">
+                <section class="col">
+                    <section class="container mx-auto">
+                        <section class="row footer">
+                            <section class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4">
+                                <h5>Get to Know Us</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Press Releases</a></li>
+                                    <li><a href="#">Pay All Day</a></li>
+                                    <li><a href="#">Gift a Smile</a></li>
+                                </ul>
+                            </section>
+                            <section class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4">
+                                <h5>Connect with Us</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                </ul>
+                            </section>
+                            <section class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4">
+                                <h5>Make Money with Us</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Sell on Pay All Day</a></li>
+                                    <li><a href="#">Sell under Pay All Day Accelerator</a></li>
+                                    <li><a href="#">Pay All Day Global Selling</a></li>
+                                    <li><a href="#">Become an Affiliate</a></li>
+                                    <li><a href="#">Fulfilment by Pay All Day</a></li>
+                                    <li><a href="#">Advertise Your Products</a></li>
+                                    <li><a href="#">Pay All Day Pay on Merchants</a></li>
+                                </ul>
+                            </section>
+                            <section class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4">
+                                <h5>Let Us Help You</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">COVID-19 and Pay All Day</a></li>
+                                    <li><a href="#">Your Account</a></li>
+                                    <li><a href="#">Returns Centre</a></li>
+                                    <li><a href="#">100% Purchase Protection</a></li>
+                                    <li><a href="#">Pay All Day App Download</a></li>
+                                    <li><a href="#">Pay All Day Assistant Download</a></li>
+                                    <li><a href="#">Help</a></li>
+                                </ul>
+                            </section>
+                        </section>
+                        <section class="row">
+                            <section class="col-6 my-auto">
+                                <p class="text-white"><b>© 2007-2021 payallday.com</b></p>
+                            </section>
+                            <section class="col-6 text-right main_footer_image">
+                                <a href="#"><img src="icon/facebook.png" height="35px" width="35px" alt="" /></a>
+                                <a href="#"> <img src="icon/twitter.png" height="35px" width="35px" alt="" /></a>
+                                <a href="#"><img src="icon/instagram.png" height="35px" width="35px" alt="" /></a>
+                                <a href="#"> <img src="icon/whatsapp.png" height="35px" width="35px" alt="" /></a>
+                                <a href="#"> <img src="icon/linkedin.png" height="35px" width="35px" alt="" /></a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <!---------------------footer end-->
+
+        <!-- Optional JavaScript start -->
+        <!----------------navigation jquery start-->
+        <script src="js/header.js"></script>
+        <!----------------navigation jquery end-->
+
+        <!-- Optional JavaScript end -->
+        <!-- Optional JavaScript; choose one of the two! -->
+        <script src="js/demo.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/anime.min.js"></script>
+        <script src="js/demo1.js"></script>
+        <!-- JavaScript -->
+        <script src="js/flickity.js"></script>
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="js/bootstrap4_6.js"></script>
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    --></body>
+</html>
